@@ -1,0 +1,42 @@
+.loginForm{
+	width: 300px ;
+	height: 300px;
+	border-radius: 6px;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50% , -50%) ;
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	box-shadow: 0px 0px 10px 2px grey;
+    font-size: 20px;
+}
+input{
+	
+	border-left-style : hidden;
+	border-top-style : hidden;
+	border-right-style : hidden;
+	border-bottom-style: groove;
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 200px;
+
+}
+button{
+	margin-top: 15%;
+	padding: 10px 60px;
+	background-color : #afacac;
+	border : 0;
+	outline: none;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 30px;
+}
+.App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
